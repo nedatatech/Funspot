@@ -18,7 +18,7 @@
             <li class="<%= controller_name == 'home' ? 'active' : '' %>"><a href="#">Home</a></li>
             <li class="<%= controller_name == 'about' ? 'active' : '' %>"><a href="#">About</a></li>
             <li class="<%= controller_name == 'products' ? 'active' : '' %>"><a href="#">Products</a></li>
-            <li class="<%= controller_name == 'gallery' ? 'active' : '' %>"><a href="#">Gallery</a></li>
+            <li class="<%= controller_name == 'gallery' ? 'active' : '' %>"><%= link_to 'Gallery', photos_path %></li>
             <li class="<%= controller_name == 'forum' ? 'active' : '' %>"><a href="#">Forum</a></li>
             <li class="<%= controller_name == 'contact' ? 'active' : '' %>"><a href="#">Contact</a></li>
           </ul>
